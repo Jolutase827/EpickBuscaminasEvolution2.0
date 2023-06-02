@@ -40,4 +40,9 @@ public class Cordenada {
         }
         return false;
     }
+
+    @Override
+    public String toString() {
+        return  x +"" + y;
+    }
 }
