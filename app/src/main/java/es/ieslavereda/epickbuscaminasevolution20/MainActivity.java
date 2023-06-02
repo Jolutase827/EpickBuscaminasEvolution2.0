@@ -92,6 +92,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 cl.setVisibility(View.GONE);
                 cm.setVisibility(View.VISIBLE);
                 numero_banderas.setText(""+(numeroDeMinas-numeroDebanderasPuestas));
+                empezar.setText("Reiniciar y guardar");
             }
         });
         mas.setOnClickListener(new View.OnClickListener() {
