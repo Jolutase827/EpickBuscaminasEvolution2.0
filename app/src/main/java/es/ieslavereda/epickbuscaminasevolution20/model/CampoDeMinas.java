@@ -217,4 +217,15 @@ public class CampoDeMinas extends TableLayout {
             }
         }
     }
+
+    public int getMinasDetectadas(){
+        int salida =0;
+        for (int i =0;i<22;i++){
+            for (int j = 0; j<15;j++){
+                if (getCelda(i,j).isMina()&&getCelda(i,j).isFlag())
+                    salida++;
+            }
+        }
+        return salida;
+    }
 }

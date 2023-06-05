@@ -3,4 +3,6 @@
     <color name="celda_no_marcada">#8C8C8C</color>
     <color name="celda_mal">#FA0101</color>
     <color name="descubierto">#BCBCBC</color>
+    <color name="ganada">#8AF486</color>
+    <color name="derrota">#F36363</color>
 </resources>
